@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test name="run(failed)">
+    <classes>
+      <class name="com.Runner.Goals">
+        <methods>
+          <include name="Goal"/>
+        </methods>
+      </class> <!-- com.Runner.Goals -->
+      <class name="com.Runner.TeleRunner">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.Runner.TeleRunner -->
+      <class name="com.Runner.BillingRunner">
+        <methods>
+          <include name="run"/>
+        </methods>
+      </class> <!-- com.Runner.BillingRunner -->
+      <class name="com.Runner.MessageRuner">
+        <methods>
+          <include name="Message"/>
+        </methods>
+      </class> <!-- com.Runner.MessageRuner -->
+      <class name="com.Runner.CalendarRunner">
+        <methods>
+          <include name="Calendar"/>
+        </methods>
+      </class> <!-- com.Runner.CalendarRunner -->
+    </classes>
+  </test> <!-- run(failed) -->
+</suite> <!-- Failed suite [suite] -->
